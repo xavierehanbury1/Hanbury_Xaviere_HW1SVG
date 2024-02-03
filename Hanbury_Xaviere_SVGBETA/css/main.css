@@ -56,3 +56,19 @@
   .crystal-4 {
     fill: #fff;
   }
+
+    #CrystalShine {
+    transition: all 0.5s ease;
+    transform-origin: center;
+    }
+
+#crystalball:hover #CrystalShine {
+
+    transform: rotate(20deg);
+      }
+
+#crystalball:hover #CrystalShadow {
+    transition: transform 250ms;
+    transform: translateY(-10px);
+    
+}
