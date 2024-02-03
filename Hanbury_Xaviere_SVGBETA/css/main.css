@@ -72,3 +72,150 @@
     transform: translateY(-10px);
     
 }
+
+/* Section for Bird */
+
+.bird-1 {
+  fill: #0071bc;
+}
+
+.bird-1, .bird-2 {
+  stroke-width: 0px;
+}
+
+#bird:hover #Wing {
+    transform: skew(-10deg, 3deg);
+}
+
+#bird:hover #Eye {
+    animation: bounceIn;
+    animation-duration: 1s;
+}
+    @keyframes bounceIn {
+        0% {
+          transform: scale(0.1);
+          opacity: 0;
+        }
+        60% {
+          transform: scale(1.2);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+
+/* Section for Moon */
+
+  .moon-1 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+  }
+
+  .moon-2 {
+    fill: yellow;
+    stroke-width: 0px;
+    animation: fadeIn 3.5s;
+  }
+
+  #moon:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+ 
+/* Section for Sickle */
+.sickle-1 {
+  stroke: #231f20;
+  stroke-miterlimit: 10;
+ }
+
+.sickle-1, .sickle-2 {
+  fill: #231f20;
+ }
+
+
+.sickle-2 {
+  font-family: Castellar, Castellar;
+  font-size: 23.41px;
+ }
+
+ #sickle:hover #Honour {
+    animation: fadeIn 3.5s;
+}
+
+#sickle:hover #Justice {
+    animation: fadeIn 8.5s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#sickle:hover {
+    animation: wiggle 2s;
+  }
+  
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+
+/* Section for Symbol */
+  .symbol-1 {
+    fill: red;
+  }
+
+  .symbol-1, .symbol-2 {
+    stroke-width: 0px;
+  }
+
+  .symbol-2 {
+    fill: aqua;
+  }
+
+
+#Symbol2 {
+    transition: all 2s ease;
+    transform-origin: center;
+    }
+
+#symbol:hover #Symbol2 {
+
+    transform: rotate(632deg);
+      }
+
+#symbol:hover #Symbol {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
