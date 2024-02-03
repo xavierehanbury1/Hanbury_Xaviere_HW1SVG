@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 404.13 228.28">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        font-family: Castellar, Castellar;
+        font-size: 23.41px;
+      }
+    </style>
+  </defs>
+  <g id="Sickles">
+    <path class="cls-1" d="M2.03,87.13C-7.85,95.83,31.32,34.28,82.49,12.84,128.47-6.43,169.42,1.78,183.03,5.13l105,216c-5.53,2.17-11.06,4.34-16.58,6.51L174.03,20.13S102.03-.87,2.03,87.13ZM402.1,87.13c9.89,8.7-29.28-52.84-80.46-74.29-45.98-19.27-86.93-11.06-100.54-7.71l-105,216c5.53,2.17,11.06,4.34,16.58,6.51L230.1,20.13S302.1-.87,402.1,87.13Z"/>
+  </g>
+  <g id="Honour">
+    <text class="cls-2" transform="translate(66.74 70.13) rotate(-11.71) scale(.84 1)"><tspan x="0" y="0">honour</tspan></text>
+  </g>
+  <g id="Justice">
+    <text class="cls-2" transform="translate(243.24 48.22) rotate(9.98) scale(.84 1)"><tspan x="0" y="0">Justice</tspan></text>
+  </g>
+</svg>
