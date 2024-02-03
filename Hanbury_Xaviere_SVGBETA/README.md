@@ -11,7 +11,7 @@ You are allowed to use this site as an example file or template to build your ow
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 ## History
-Change Later
+Added CSS functionality, Javascript console logs, SVG images that serve as references to various media, and HTML.
 ## Credits
 Xaviere Hanbury
 ## License
