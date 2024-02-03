@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="crystalball" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 495 595">
-  <defs>
-
   <g id="CrystalBase">
     <path class="crystal-2" d="M495,347.5c0,136.69-110.81,247.5-247.5,247.5S0,484.19,0,347.5,110.81,100,247.5,100s247.5,110.81,247.5,247.5Z"/>
     <path class="crystal-3" d="M439,291c0,105.49-85.51,191-191,191S57,396.49,57,291,142.51,100,248,100s191,85.51,191,191Z"/>
