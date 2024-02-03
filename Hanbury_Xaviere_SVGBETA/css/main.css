@@ -2,3 +2,57 @@
     display: none;
 }
 
+/* Section for Starbadge */
+.cls-1, .cls-2, .cls-3 {
+    stroke-width: 0px;
+  }
+
+  .cls-2 {
+    fill: #fff;
+  }
+
+  .cls-3 {
+    fill: #fff31b;
+  }
+
+  .StarBase {
+    transition: transform 250ms;
+  }
+  
+  #StarBase:hover{
+    fill: red;
+    transform: translateY(-10px);
+  }
+
+  #StarEye:hover {
+    fill: red;
+    transition: transform 250ms;
+    transform: translateY(-10px);
+  }
+
+
+/* Section for CrystalBall */
+
+.crystal-1 {
+    fill: #e6e6e6;
+  }
+
+  .crystal-1, .crystal-2, .crystals-3, .crystal-4 {
+    stroke-width: 0px;
+  }
+
+  .crystal-2 {
+    fill: #b3b3b3;
+  }
+
+  .crystal-5 {
+    opacity: .11;
+  }
+
+  .crystal-3 {
+    fill: #ccc;
+  }
+
+  .crystal-4 {
+    fill: #fff;
+  }
